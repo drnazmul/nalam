@@ -1,0 +1,29 @@
+---
+title: "Types of HPLC pumps based on flow rates"
+author: "Nazmul Alam"
+date: "2023-06-10"
+categories: [HPLC, Pumps]
+#image: "Ts-experiment.jpg"
+---
+
+Here are some of the most common types of HPLC pumps based on flow rates:
+
+### Nano LC pumps
+
+These pumps are designed for very low flow rates, typically around 1 µL/min or less. They are used for highly sensitive applications such as proteomics, metabolomics, and peptide mapping.
+
+### Micro LC pumps
+
+These pumps are designed for flow rates in the range of several tens of µL/min. They are us ed for a wide range of applications, including pharmaceuticals, environmental testing, and food analysis.
+
+### Semi-micro LC pumps
+
+These pumps are designed for flow rates in the range of several hundreds of µL/min. They are used for applications such as drug discovery, metabolite profiling, and natural product analysis.
+
+### Analytical pumps
+
+These pumps are designed for flow rates in the range of several mL/min. They are used for routine analytical work, such as quality control testing in the pharmaceutical industry.
+
+### Preparative pumps
+
+These pumps are designed for flow rates in the range of several tens of mL/min or more. They are used for preparative chromatography, which involves isolating and purifying large quantities of a specific compound or mixture.

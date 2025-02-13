@@ -1,0 +1,24 @@
+---
+title: "The Colorful History and Evolution of Liquid Chromatography: From Tswett to UPLC"
+author: "Nazmul Alam"
+date: "2023-05-31"
+categories: [HPLC, History]
+image: "Ts-experiment.jpg"
+---
+
+The history of liquid chromatography dates back to the early 1900s when Russian botanist Mikhail Semyonovich Tswett invented a method for separating plant pigments using petroleum ether. He called this new technique "chromatography" because the result of the analysis was literally "written in color" along the length of the adsorbent column. 
+
+![image](Ts-experiment.jpg)
+Forty years later, Archer John Porter Martin and Richard Lawrence Millington Synge published a new type of partition chromatography that used silica gel in columns to separate amino acids, which led to the development of high-performance liquid chromatography (HPLC). In the 1970s, HPLC instruments saw significant improvements in technology, with the ability to develop up to 6,000 psi of pressure and incorporate improved injectors, detectors, and columns.
+
+Further advances in instrumentation and column technology were made in 2004 to achieve ultra-performance liquid chromatography (UPLC) technology, with columns containing even smaller 1-micron-diameter particles and instrumentation capable of performing at 100,000 psi. Today, laboratories worldwide use HPLC to identify and quantify non- and semi-volatile chemical components in liquid samples.
+
+The evolution of liquid chromatography has come a long way, with continuous research and development leading to significant improvements in performance, resolution, speed, and sensitivity. With the introduction of UPLC and UHPLC, the pressure race continues, providing a glimpse of what we may expect in the future.
+
+References:
+
+1. Ronald E. Majors, LCGC North America, LCGC North America-11-01-2015, Volume 33, Issue 11, Pages: 818-840
+
+2. [Waters document](https://www.waters.com/nextgen/ca/en/education/primers/beginner-s-guide-to-liquid-chromatography.html)
+
+3. Dr. Thorsten Teutenberg, From Tswett’s “Farbschreibung” to modern Chromatography, The analytical Sciece, 25 November 2016

@@ -1,0 +1,64 @@
+---
+title: "Nazmul Alam"
+about:
+  id: main-content
+  template: trestles
+  image: images/profile-pic.jpg
+  image-shape: round
+  links:
+    - icon: envelope
+      href: mailto:nazmulche@gmail.com
+    #- icon: briefcase
+    #  href: https://www.gbkcollective.com/team-profiles/danyavorsky
+    - icon: linkedin
+      href: https://www.linkedin.com/in/nazmul-alam/
+    #- icon: twitter-x
+    #  href: https://twitter.com/dyavorsky
+    - icon: github
+      href: https://github.com/drnazmul
+  # - icon: stack-overflow
+  #   href: https://stackoverflow.com/users/4573108/dany
+    - icon: mortarboard-fill
+      href: https://scholar.google.ca/citations?user=txNcJaUAAAAJ&hl=en
+  # - icon: person-check-fill
+  #   href: https://orcid.org/0000-0003-4095-6405
+
+format:
+  html:
+    page-layout: full
+---
+
+:::{#main-content}
+
+## Current
+
+ - Senior Analytical Development Chemist | Deciem Inc.
+
+-----
+
+## Work History
+
+ - Senior Analytical Development Chemist [| 2023 - Present]{.gray}
+ - Scientist II, Dalriada Drug Discovery [| 2021 - 2023]{.gray}
+ - LCMS Scientist, Diteba Inc. [| 2019 - 2021]{.gray}
+ - Research Associate, Ontario Ministry of Environment, Conservation and Parks [| 2019 - 2021]{.gray}
+ - Analytical Chemist, Canadian Analytical Laboratories [| 2017 - 2018]{.gray}
+ - Assistant Professor, Chemistry, SUST  [| 2005 - 2009]{.gray}
+
+-----
+
+## Education
+
+ - PhD, Analytical Chemistry [| University of Waterloo 2016]{.gray}
+ - MS, Inorganic Chemistry [| Western University 2011]{.gray}
+ - Diploma, Environmental Engineering [| Tokyo Tech 2008]{.gray}
+ - MSc, Inorganic Chemistry  [| Rajshahi University 2005]{.gray}
+ - BSc, Chemistry [| Rajshahi University 2003]{.gray}
+
+:::
+
+
+
+
+
+

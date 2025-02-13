@@ -1,0 +1,520 @@
+---
+title: " FDA Bioanalytical method validation guidlines- summary"
+author: "Nazmul Alam"
+date: "2023-06-13"
+categories: [FDA, MV]
+#image: "Ts-experiment.jpg"
+---
+:::{.callout-note}
+This is based based on the original FDA [guideline](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m10-bioanalytical-method-validation-and-study-sample-analysis)
+:::
+
+# Introduction
+
+## Objectives
+
+This guidance provides recommendations for validating bioanalytical methods for drug quantification and analysis. Follow these principles for consistent and high-quality results in drug development and approval.
+
+-   Validate bioanalytical methods to demonstrate suitability for intended purpose
+
+-   Alternative approaches may be used if scientifically justified and approved by regulatory authorities
+
+-   Consult regulatory authorities for significant changes in method validation approaches
+
+-   This guidance replaces the ICH draft guidance for industry M10 Bioanalytical Method Validation, issued on June 27, 2019.
+
+## Background
+
+-   Reliable concentration measurements of chemical and biological drugs and their metabolites in biological matrices are crucial for drug development and regulatory decisions.
+
+-   Validated bioanalytical methods are necessary to ensure accurate and consistent results.
+
+-   These methods should be well-characterized, appropriately validated, and thoroughly documented.
+
+-   The results of studies using bioanalytical methods contribute to regulatory decisions on drug product safety and efficacy.
+
+## Scope
+
+-   The guidance is applicable to the bioanalytical methods used to measure concentrations of chemical and biological drug(s) and their metabolite(s) in biological samples (e.g., blood, plasma, serum, other body fluids or tissues) obtained in
+
+-   nonclinical toxicokinetic (TK) studies conducted according to the principles of Good Laboratory Practice (GLP),
+
+-   nonclinical pharmacokinetic (PK) studies conducted as surrogates for clinical studies, and all phases of clinical trials,
+
+-   including comparative bioavailability/bioequivalence (BA/BE) studies, in regulatory submissions.
+
+# General Principles
+
+## Method Development
+
+-   The purpose of bioanalytical method development is to define the method's design, operating conditions, limitations, and suitability for its intended purpose.
+
+-   Understand the analyte of interest, including its physicochemical properties, metabolism, distribution, and protein binding.
+
+-   Determine if any prior analytical methods are available.
+
+-   Identify the procedures and conditions involved in quantifying the analyte.
+
+-   Characterize reference standards, critical reagents, calibration curve, QCs, selectivity and specificity, sensitivity, accuracy, precision, recovery, stability of the analyte, and MRD.
+
+-   Validate the method to ensure it is suitable for analyzing study samples.
+
+# Method Validation
+
+## Full Validation
+
+-   Validation of bioanalytical methods is crucial to ensure accurate and reliable results.
+
+-   A full validation should be performed when establishing a new method for quantifying an analyte in clinical or nonclinical studies, implementing a reported analytical method, or repurposing a commercial kit for bioanalytical use in drug development.
+
+-   The validation process should include selectivity, specificity, matrix effect, calibration curve, range, accuracy, precision, carryover, dilution integrity, stability, and reinjection reproducibility for chromatographic methods.
+
+-   The matrix used for validation should match the matrix of the study samples, including anticoagulants and additives. Surrogate matrices may be acceptable if identical matrices are difficult to obtain.
+
+-   The choice of surrogate matrix should be scientifically justified. Matrix differences within species are generally not considered different during validation.
+
+-   A detailed written description of the method and validation procedure should be established beforehand, in the form of a protocol, study plan, report, notebook, or SOP.
+
+## Partial Validation
+
+-   Partial validation can evaluate modifications to a previously validated analytical method.
+
+-   The extent and nature of the changes made to the method determine the items to be included in a partial validation.
+
+-   Partial validation can range from a single accuracy and precision determination to a nearly full validation.
+
+-   The goal of partial validation is to ensure the modified method produces accurate and reliable results.
+
+## Cross Validation
+
+Cross validation is required to demonstrate how the reported data are related when multiple bioanalytical methods and/or multiple bioanalytical laboratories are involved
+
+# Chromatography
+
+## Reference Standards
+
+-   Prepare calibration standards and QCs by spiking a blank biological matrix with the analyte(s) of interest using separate stock solutions of reference standards.
+
+-   Add a suitable internal standard (IS) to all calibration standards, QCs, and study samples during sample processing, unless justified otherwise.
+
+-   Ensure the reference standard is well characterized, of high quality, and obtained from an authentic and traceable source.
+
+-   Use an identical reference standard to the analyte, or an established form of known quality if not possible.
+
+-   Suitable reference standards include compendial, commercially available, or sufficiently characterized standards prepared in-house or by an external organization.
+
+-   Use a CoA or equivalent alternative to ensure quality and provide information on the purity, storage conditions, retest/expiration date, and batch number of the reference standard.
+
+-   When using MS detection, use a stable isotope-labeled analyte as the IS whenever possible, ensuring high isotope purity and no isotope exchange reaction occurs.
+
+-   Only prepare **stock and working solutions** from reference standards within the stability period documented in the CoA (either expiration date or retest date).
+
+## Validation
+
+### Selectivity
+
+-   Selectivity is the ability of an analytical method to measure the analyte in the presence of interfering substances in the blank biological matrix.
+
+-   To evaluate selectivity, blank samples should be obtained from at least six individual sources/lots.
+
+-   Selectivity for the internal standard (IS) should also be evaluated.
+
+-   The evaluation should show no significant response from interfering components at the retention time of the analyte or IS in the blank samples.
+
+-   Interfering component responses should not be more than 20% of the analyte response at the LLOQ and not more than 5% of the IS response in the LLOQ sample for each matrix.
+
+-   Lipemic matrices should be tested using a representative matrix with high levels of triglycerides obtained from donors or spiked with triglycerides.
+
+-   Hemolyzed matrices should be tested using a visibly detectable hemolyzed sample obtained by spiking matrix with hemolyzed whole blood (at least 2% V/V).
+
+-   Lipemic and hemolyzed matrix testing is not necessary for nonclinical studies unless the drug impacts lipid metabolism or is administered in a particular animal strain that is hyperlipidemic.
+
+### Specificity
+
+-   Specificity refers to a bioanalytical method's ability to detect and differentiate the analyte from other substances.
+
+-   This includes **related substances, metabolites, isomers, impurities, degradation products, and concomitant medications.**
+
+-   The impact of related substances should be evaluated during method validation or in predose study samples.
+
+-   LC-MS based methods can assess the impact of related substances by comparing molecular weight and chromatographic separation.
+
+-   Interfering components should not contribute more than 20% of the analyte response at the LLOQ or 5% of the IS response in the LLOQ sample.
+
+-   Back-conversion of metabolites into the parent analyte should be evaluated, especially for unstable metabolites.
+
+-   Partial validation should be performed if needed, and the impact on study results should be discussed in the Bioanalytical Report.
+
+### Matrix Effect
+
+-   A matrix effect is when the response of an analyte is altered due to unknown components in the sample matrix.
+
+-   During method validation, the matrix effect should be evaluated between different sources/lots.
+
+-   To evaluate the matrix effect, at least three replicates of low and high quality controls should be analyzed using matrix from at least six different sources/lots.
+
+-   Accuracy should be within ±15% of the nominal concentration and precision should not be greater than 15% for each matrix source/lot evaluated.
+
+-   The matrix effect should also be evaluated in relevant patient populations or special populations (e.g. hepatically impaired or renally impaired) when available.
+
+-   Hemolyzed or lipemic matrix samples should be evaluated for matrix effect on a case-by-case basis, especially if these conditions are expected to occur in the study.
+
+### Calibration Curve and Range
+
+-   The calibration curve shows the relationship between the analyte concentration and the analytical platform's response.
+
+-   Calibration standards, prepared by spiking known amounts of analyte into the matrix, make up the calibration curve.
+
+-   The calibration range is defined by the lowest and highest calibration standards, known as the LLOQ and ULOQ.
+
+-   A calibration curve should be generated with a blank sample, a zero sample, and at least six concentration levels of calibration standards.
+
+-   The regression model, weighting scheme, and transformation should be determined during method validation.
+
+-   The accuracy of the back-calculated concentrations of each calibration standard should be within ±20% of the nominal concentration at the LLOQ and within ±15% at all other levels.
+
+-   At least 75% of the calibration standards should meet the above criteria.
+
+-   If a calibration standard does not meet the criteria, it should be rejected, and the calibration curve should be reevaluated.
+
+-   The calibration curve should be prepared using freshly spiked calibration standards in at least one assessment.
+
+-   Frozen calibration standards can be used within their defined period of stability.
+
+### Accuracy and Precision
+
+#### Preparation of quality control samples
+
+-   Prepare quality control samples by spiking matrix with a known quantity of analyte.
+
+-   Store the QCs under the same conditions as study samples and analyze them to validate the analytical method.
+
+-   Use separate stock solutions for calibration standards and QCs to avoid biased estimations.
+
+-   Verify the accuracy and stability of stock solutions if calibration standards and QCs are prepared from the same solution.
+
+-   Use a single source of blank matrix that is free of interference or matrix effects.
+
+-   Prepare QCs at a minimum of 4 concentration levels within the calibration curve range.
+
+-   QCs should include LLOQ, low QC, medium QC, and high QC.
+
+-   Analyze low, medium, and high QCs in duplicate for non-accuracy and precision validation runs.
+
+-   Use QCs and calibration standards to determine acceptance or rejection of a run.
+
+#### Evaluation of accuracy and precision
+
+-   To determine accuracy and precision, analyze QCs within each run and between runs.
+
+-   Evaluate accuracy and precision using at least three replicates per run at each QC concentration level in at least six runs over 2 or more days.
+
+-   Report within-run accuracy and precision data for each run and calculate an overall estimate if criteria are not met in all runs.
+
+-   Calculate between-run precision and accuracy by combining data from all runs.
+
+-   Within-run and between-run accuracy should be within ±20% of nominal values, except for LLOQ and ULOQ which should be within ±25%.
+
+-   Within-run and between-run precision should not exceed 20%, except at LLOQ and ULOQ where it should not exceed 25%.
+
+-   For non-validation runs, at least 2/3 of total QCs and 50% at each concentration level should be within ±20% of nominal values.
+
+-   Evaluate total error (accuracy and precision) and ensure it does not exceed 30% (40% at LLOQ and ULOQ).
+
+### Carryover
+
+-   Investigate potential carryover in analytical platform by placing blank samples after ULOQ calibration standard.
+
+-   Response of blank samples should be below LLOQ to avoid carryover.
+
+### Dilution Linearity and Hook Effect
+
+-   Assay range may require study samples to be diluted for accurate measurements
+
+-   Dilution linearity should be assessed to confirm accuracy and avoid hook effect
+
+-   Same matrix as study sample should be used for QC preparation
+
+-   Dilution QC should be generated with analyte concentration above ULOQ and tested at different dilution factors
+
+-   Response reduction (hook effect) should be checked and mitigated if necessary
+
+-   Mean concentration should be within ±20% of nominal concentration after correction for dilution
+
+-   Precision should not exceed 20%
+
+-   Dilution factors used in study sample analysis should be within validated range.
+
+### Stability
+
+-   Stability evaluations ensure that sample preparation, processing, analysis, and storage conditions do not affect analyte concentration.
+
+-   Storage and analytical conditions used in stability tests should reflect those used for study samples.
+
+-   Validation of storage periods should be performed on QCs stored for equal or longer periods than study samples.
+
+-   Low and high concentration QCs should be analyzed at time zero and after storage conditions are evaluated.
+
+-   QCs should be analyzed against a calibration curve obtained from freshly spiked calibration standards and QCs.
+
+-   Freeze-thaw stability should be demonstrated with valid justification provided for macromolecules.
+
+-   QCs should be adjusted to represent the actual sample concentration range if consistently higher than ULOQ.
+
+-   Fixed dose combination products require stability tests with matrix spiked with all dosed compounds.
+
+-   Bench top, freeze-thaw, and long-term stability should be studied for all analytes.
+
+-   Stability at one temperature can be extrapolated to lower temperatures for chemical drugs.
+
+-   Biological drugs can use a bracketing approach for stability testing.
+
+### Reinjection Reproducibility
+
+-   To ensure the method's reproducibility, multiple measurements of the QCs are necessary.
+
+-   Precision and accuracy are evaluated through these measurements.
+
+-   If samples are reinjected due to instrument interruptions or equipment failure, reinjection reproducibility should be assessed.
+
+-   This evaluation confirms the processed samples' viability and supports their storage before reinjection.
+
+## Study Sample Analysis
+
+-   Validation of bioanalytical method should be completed before analyzing study samples.
+
+-   Some parameters may be completed later, such as long-term stability.
+
+-   The validated analytical method should be used to process study samples, QCs, and calibration standards.
+
+-   Documentation should follow recommendations in Table 1.
+
+-   Bioanalytical method validation should be completed before submitting data to regulatory authorities.
+
+### Analytical Run
+
+-   An analytical run should include a blank sample, calibration standards, QC samples (low, medium, and high), and study samples.
+
+-   The calibration standards should have at least six concentration levels.
+
+-   The number of QC samples should be at least 5% of the number of study samples, or two sets of QC samples.
+
+-   The blank sample should not be included in the calibration curve calculation.
+
+-   The placement of QC samples should ensure the accuracy and precision of the entire run, with study samples bracketed by QC samples.
+
+-   Microtiter plates are often used for LBAs.
+
+-   Each plate should contain its own set of calibration standards and QC samples.
+
+-   If sample capacity is limited, sets of calibration standards may be placed on the first and last plates, but QC samples should be placed on every plate.
+
+-   QC samples should be placed before and after the study samples on each plate.
+
+-   The acceptance criteria for an analytical run should be met for each QC sample and calibration curve.
+
+-   The calibration standards should be combined for one regression analysis to calculate concentrations.
+
+-   If the combined calibration curve does not meet acceptance criteria, the entire run fails.
+
+### 2. Acceptance Criteria for an Analytical Run
+
+-   Acceptance criteria for an analytical run must be defined in the protocol, study plan, or SOP.
+
+-   If a run contains multiple batches, acceptance criteria should be applied to the whole run and individual batches.
+
+-   Calibration standards in a failed batch should not be used to support the acceptance of other batches within the analytical run.
+
+-   Calibration standards should have back-calculated concentrations within ±20% of the nominal value, except for LLOQ and ULOQ, which should be within ±25%.
+
+-   At least 75% of calibration standards with a minimum of 6 concentration levels should meet this criterion, excluding anchor calibration standards.
+
+-   If a calibration standard fails, it should be rejected, and a new regression analysis should be performed without it.
+
+-   If the LLOQ is rejected, the new lower limit should be the next lowest acceptable calibration standard, and if the highest calibration standard is rejected, the new upper limit should be the next acceptable highest calibration standard.
+
+-   Each run should contain at least three levels of QCs (low, medium, and high), and at least 2/3 of the QCs and 50% at each concentration level should be within ±20% of the nominal value.
+
+-   Overall mean accuracy and precision of the QCs of all accepted runs should be calculated and reported in the analytical report.
+
+-   If the overall mean accuracy and/or precision exceeds 20%, additional investigations should be conducted to determine the cause(s) of this deviation.
+
+### Calibration Range
+
+-   If the expected range of analyte concentrations in study samples is narrow, adjust the calibration curve range, QC concentrations, or add new QC levels to reflect the concentrations of the study samples.
+
+-   If an unexpected clustering of study samples at one end of the calibration curve is encountered during sample analysis, stop the analysis and narrow the calibration curve range, revise QC concentrations, or add new QC levels before continuing with sample analysis.
+
+-   If a large number of study sample concentrations are above the ULOQ, adjust the calibration curve range and QC levels or dilute the samples according to validated methods.
+
+-   Ensure at least two QC levels fall within the range of concentrations measured in study samples.
+
+-   If the calibration curve range is changed, revalidate the bioanalytical method to ensure accuracy and precision.
+
+### Reanalysis of Study Samples
+
+-   Predefine reasons for reanalysis of study samples, number of replicates, and decision criteria in protocol or SOP before analysis begins
+
+-   Do not reject valid result for one analyte if another analyte fails acceptance criteria in samples with multiple analytes
+
+-   Report and discuss number of samples (and percentage) that have been reanalyzed in Bioanalytical Report
+
+-   Reasons for study sample reanalysis may include rejected analytical run, significant difference in IS response, concentration above ULOQ, concentration below revised LLOQ, improper sample injection or equipment malfunction, diluted sample below LLOQ, quantifiable analyte levels in pre-dose or control samples, or poor chromatography
+
+-   Do not reanalyze study samples for PK reasons in comparative BA/BE studies to avoid bias
+
+-   Identify reanalyzed samples in Bioanalytical Report with initial value, reason for reanalysis, values obtained in reanalyzes, final accepted value, and justification for acceptance; provide summary table of total number of samples reanalyzed for each reason
+
+-   In cases where first analysis yields nonreportable result, single reanalysis is sufficient; replicate determinations required if sample volume allows for confirmation of value
+
+-   Safety of trial subjects takes precedence over any other aspect of trial; may need to reanalyze specific study samples for safety investigation
+
+### Reinjection of Study Samples
+
+-   Reprocessed samples can be reinjected in case of equipment failure, but only if reinjection reproducibility has been demonstrated during validation or provided in the Bioanalytical Report.
+
+-   It is not recommended to reinject a full analytical run or individual calibration standards or QCs simply because they failed without any identified analytical cause.
+
+-   The focus should be on identifying the root cause of the failure rather than blindly reinjecting samples.
+
+### Integration of Chromatograms
+
+-   A study plan, protocol, or SOP should outline chromatogram integration and reintegration procedures.
+
+-   Any deviations from these procedures should be explained in the Bioanalytical Report.
+
+-   The Bioanalytical Report should include a list of chromatograms that required reintegration and the reasons for it.
+
+-   Both original and reintegrated chromatograms and integration results should be kept for future reference.
+
+-   All of this information should be submitted in the Bioanalytical Report for comparative BA/BE studies.
+
+# Incurred sample reanalysis
+
+-   Incurred sample reanalysis (ISR) is used to verify the reliability of reported sample analyte concentrations.
+
+-   ISR should be performed in nonclinical studies at least once per species, in all pivotal comparative BA/BE studies, and in first clinical trials in subjects.
+
+-   The extent of ISR depends on the analyte and study samples, but as a minimum, 10% of samples should be reanalyzed if the total number of samples is less than or equal to 1000, and 10% of the first 1000 samples plus 5% of the number of samples that exceed 1000 should be assessed if the total number of samples is greater than 1000.
+
+-   Samples should not be pooled, and ISR samples and QCs should be processed and analyzed in the same manner as in the original analysis.
+
+-   The percent difference between the initial concentration and the concentration measured during the repeat analysis should be within ±20% for chromatographic methods and within ±30% for LBAs for at least 2/3 of the repeats.
+
+-   If the overall ISR results fail the acceptance criteria, an investigation should be conducted and the causes remediated.
+
+-   All aspects of ISR evaluations should be documented to allow reconstruction of the study and any investigations.
+
+-   Individual samples that are quite different from the original value (e.g., 50%, "flyers") should not trigger reanalysis of the original sample and do not need to be investigated.
+
+-   ISR sample data should not replace the original study sample data.
+
+The percent difference between the initial concentration and the concentration measured during the repeat analysis should be calculated in relation to their mean value.
+
+# Partial Validation and Cross Validation
+
+## Partial Validation
+
+Partial validations assess modifications to fully validated bioanalytical methods. It can be a minimal validation with only one accuracy and precision determination or a nearly full validation. If stability is established at one facility, it does not need to be repeated at another facility.
+
+For chromatographic methods, typical modifications include:
+
+-   Analytical site change using the same method
+
+-   Change in analytical method (e.g., detection systems, platform)
+
+-   Change in sample processing procedures
+
+-   Change in sample volume (e.g., smaller volume for pediatric samples)
+
+-   Changes to the calibration concentration range
+
+-   Change in anticoagulant (not changes in counter-ion) in biological fluids
+
+-   Change from one matrix within a species to another or changes to the species within the matrix
+
+-   Change in storage conditions
+
+## Cross validation
+
+Cross validation is necessary to show the relationship between reported data when multiple bioanalytical methods and/or laboratories are involved. It is required in the following situations:
+
+-   Data is obtained from different validated methods within a study.
+
+-   Data is obtained from different laboratories using the same bioanalytical method.
+
+-   Data is obtained from different validated methods across studies that will be combined or compared to support dosing regimens, safety, efficacy, and labeling decisions.
+
+Cross validation is not generally required if data from different validated methods are not combined across studies. It should be done before analyzing study samples if possible. Cross validation should involve measuring the same set of QCs in triplicate and study samples (if available) that span the concentration range with both methods or in both laboratories.
+
+Bias can be assessed using Bland-Altman plots or Deming regression. Other methods like the concordance correlation coefficient may also be used. Alternatively, concentration vs. time curves for study samples can be plotted for samples analyzed by each method to assess bias.
+
+Using multiple bioanalytical methods in one comparative BA/BE study is strongly discouraged.
+
+# Additinoal Consideratoins
+
+## Methods for Analytes That Are Also Endogenous Molecules
+
+Analyzing analytes that are also endogenous molecules can be challenging as accuracy may be affected when the method cannot differentiate between the therapeutic agent and the endogenous molecule. Additionally, endogenous levels of the analyte may vary due to various factors. This section covers approaches for assessing concentrations of analytes that are also endogenous molecules, excluding biomarkers.
+
+Calibration standards and QCs should ideally use the same biological matrix as study samples, free of matrix effect and interference. The biological matrix chosen should have low endogenous concentration to ensure a good signal-to-noise ratio.
+
+If matrices without interference are unavailable, the following approaches can be used to calculate analyte concentration in study samples: surrogate matrix, surrogate analyte, background subtraction, and standard addition.
+
+Surrogate Matrix Approach
+
+:   Substitute the matrix for calibration standards with a surrogate matrix, ranging from simple buffers to stripped matrices or matrices from other species.
+
+Surrogate Analyte Approach
+
+:   Use stable isotope labeled analytes as surrogate standards in mass spectrometric methods to construct the calibration curve, assuming physicochemical properties are the same except for molecular weight. Ensure the response factor is close to unity and constant over the entire calibration range.
+
+Background Subtraction Approach
+
+:   Subtract the endogenous analyte concentration observed in a pooled/representative matrix from the concentration observed in spiked standards, then use the net differences to construct the calibration curve. Diluting blank matrices before spiking may cause different recoveries and matrix effects, which should be considered during validation.
+
+Standard Addition Approach
+
+:   Use only for analytical platforms with linear responses. Divide study samples into equal volume aliquots, and spike all but one with varying amounts of analyte standards to construct a calibration curve. Determine the endogenous blank concentration or study sample concentration as the negative x-intercept of the standard calibration curve prepared in that particular study sample.
+
+Validation of an analytical method for an endogenous analyte requires careful consideration of several factors:
+
+1.  Quality Control Samples: Use matrices with low levels of interfering endogenous analyte and prepare QC samples that resemble study samples. Use both unspiked and spiked matrices to cover a range of concentrations.
+
+2.  Selectivity, Recovery, and Matrix Effects: Assess selectivity by analyzing matrices from multiple donors. Recovery and matrix effects should be evaluated for calibration standards and study samples, and the impact of different matrices should be assessed.
+
+3.  Parallelism: Ensure that changes in response per given changes in analyte concentrations are equivalent for the surrogate and authentic biological matrix.
+
+4.  Accuracy and Precision: Meet criteria for accuracy and precision specified in relevant sections. Use the formula to calculate accuracy when QCs are spiked with the authentic analyte in the matrix containing endogenous levels of the analyte.
+
+5.  Stability: Investigate stability with the authentic analyte in the authentic biological matrix and with unspiked/endogenous QCs, as well as spiked low QC and high QCs. If using a surrogate matrix, demonstrate stability for the analyte in the surrogate matrix.
+
+## Parallelism
+
+-   Parallelism is the relationship between the calibration curve and diluted study samples.
+
+-   It's important to evaluate parallelism when interference from a matrix component is suspected.
+
+-   Results should be included in the Bioanalytical Report.
+
+-   Parallelism may differ between patient populations and should be tested during analysis of study samples.
+
+-   Dilution series should have at least three concentrations with consistent back calculated concentrations.
+
+-   Results that pass the 30% CV criterion should still be monitored for nonparallel trends.
+
+-   A priori procedures should be defined for reporting nonparallel results.
+
+## Recovery
+
+-   Sample extraction methods require evaluation of recovery (extraction efficiency).
+
+-   Recovery should be reported as a percentage of the known analyte amount carried through the extraction and processing steps.
+
+-   Compare analyte response in a spiked sample with response in a blank sample to determine recovery.
+
+-   Recovery doesn't need to be 100%, but consistency is important for analyte and IS (if used).
+
+-   Perform recovery experiments at low, medium, and high concentrations.
+
+ 

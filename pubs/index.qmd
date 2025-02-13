@@ -1,0 +1,93 @@
+---
+toc: true
+toc-depth: 4
+---
+
+
+-----
+
+### Journal Articles
+
+#### 2018
+
+_**Effect of Transport Parameters and Device Geometry on Extraction Kinetics and Efficiency in Direct Immersion Solid-phase Microextraction**_ [[link](https://pubs.acs.org/doi/10.1021/acs.analchem.8b02855)]
+
+_**Effect of Binding Components in Complex Sample Matrices on Recovery in Direct Immersion Solid-Phase Microextraction: Friends or Foe?**_[[link](https://pubs.acs.org/doi/10.1021/acs.analchem.7b05436)]
+
+_**The effect of hematocrit on solid-phase microextraction**_[[link](https://doi.org/10.1016/j.aca.2017.11.014)]
+
+_**Advances in Solid Phase Microextraction and Perspective on Future Directions**_[[link](https://doi.org/10.1021/acs.analchem.7b04502)]
+
+#### 2017
+
+_**Calibrant Free Sampling and Enrichment with Solid-Phase Microextraction: Computational Simulation and Experimental Verification**_[[link](https://doi.org/10.1021/acs.iecr.7b00131)]
+
+_**Insights into the Effect of the PDMS-Layer on the Kinetics and Thermodynamics of Analyte Sorption onto the Matrix-Compatible Solid Phase Microextraction Coating**_[[link](https://doi.org/10.1021/acs.analchem.6b04442)]
+
+#### 2016
+
+_**Numerical Simulation and Experimental Validation of Calibrant-Loaded Extraction Phase Standardization Approach**_[[link](http://www.scopus.com/inward/record.url?eid=2-s2.0-84985990818&partnerID=MN8TOARS)]
+
+#### 2015
+
+_**Numerical modeling of solid-phase microextraction: binding matrix effect on equilibrium time**_[[link](http://pubs.acs.org/doi/full/10.1021/acs.analchem.5b02239)]
+
+#### 2014
+
+_**Aptamer-functionalized solid phase microextraction-liquid chromatography/tandem mass spectrometry for selective enrichment and determination of thrombin**_[[link](10.1016/j.aca.2014.08.018)]
+
+#### 2012
+
+_**Scanning positional variations in single-nucleotide polymorphism of DNA: an electrochemical study**_[[link](https://pubs.rsc.org/en/content/articlelanding/2012/an/c2an35420a/unauth)]
+
+#### 2011
+
+_**Mesoporous MCM-41 supported N-heterocyclic carbene-Pd(II) complex for Suzuki coupling reaction**_[[link](http://www.scopus.com/inward/record.url?eid=2-s2.0-79960049394&partnerID=MN8TOARS)]
+
+#### 2009
+
+_**Heterogeneous Heck reaction catalysed by silica gel-supported 1,2-diaminocyclohexane-Pd complex**_[[link](http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=ORCID&SrcApp=OrcidOrg&DestLinkType=FullRecord&DestApp=WOS_CPL&KeyUT=WOS:000271803800020&KeyUID=WOS:000271803800020)]
+
+_**Highly efficient silica gel-supported 1,2-diaminocyclohexane-Pd catalyst for Suzuki-Miyaura and Sonogashira coupling reactions**_[[link](http://www.scopus.com/inward/record.url?eid=2-s2.0-62449332152&partnerID=MN8TOARS)]
+
+_**Improvement of Pd(II) adsorption performance of condensed-tannin gel by amine modification**_[[link](http://www.scopus.com/inward/record.url?eid=2-s2.0-79951499407&partnerID=MN8TOARS)]
+
+_**Use of arsenic contaminated sludge in making ornamental bricks; International Journal of Environmental Science and Technology**_[[link](http://www.scopus.com/inward/record.url?eid=2-s2.0-63449138400&partnerID=MN8TOARS)]
+
+
+
+-----
+
+### Conference Presentations
+
+#### Toronto 2017
+
+_**Rapid Calibration-free Sampling and Enrichment with Solid-phase Microextraction: Numerical Modeling and Experimental Verification**_
+
+_**Factors Affecting Accuracy in Time Weighted Average Concentration Determination with Adsorptive Passive Samplers**_
+
+#### MSB 2016, Niagra
+
+_**Sorption and desorption kinetics involved in SPME with a computational model**_
+
+_**How does SPME work?**_
+
+
+-----
+
+#### Pittcon 2016, Atlanta, USA
+
+_**Justification of Kinetic Calibration in Pre-Equilibrium Solid Phase Microextraction with a Mathematical Model and Computational Simulation**_
+
+_**Aptamer Functionalized Solid Phase Microextraction for Selective Enrichment of Thrombin**_
+
+#### Tokyo 2007, Japan
+
+_**Enhanced adsorption property of condensed tannin gel for Pd(II) recovery by amine modification**_
+
+
+ 
+
+
+
+

@@ -1,0 +1,19 @@
+---
+title: "HPLC Separations: Isocratic vs. Gradient"
+author: "Nazmul Alam"
+date: "2023-06-10"
+categories: [HPLC, separations]
+#image: "Ts-experiment.jpg"
+---
+
+
+
+When it comes to HPLC separations, there are two modes: isocratic and gradient. Isocratic elution refers to a constant concentration of the mobile phase throughout the chromatographic process. This method is simple and straightforward, but it has its limitations. Late-eluting peaks tend to become broad and flat, making them difficult to recognize. Additionally, selectivity does not change with column dimensions, meaning peaks elute in the same order.
+
+![](isocratic-gradient.png){fig-align="center"}
+
+Gradient elution, on the other hand, involves changing the composition of solvents either continuously or stepwise. This method allows for sharper peaks throughout the chromatogram and can achieve separations that are not possible with isocratic elution. Gradients are designed to start with weak elution conditions and end with strong elution conditions, providing adequate compound retention and elution.
+
+There are different types of gradient designs, including linear and step gradients. Linear gradients are the most commonly used and help keep each compound's band broadening to a minimum. Compounds stick to the column media until the solvent polarity is strong enough to dissolve and elute them. Step gradients are more challenging to use but can provide a complete separation of targeted compounds in narrow bands while using less solvent than linear gradients or isocratic elution.
+
+In summary, both isocratic and gradient elution have their advantages and disadvantages. Isocratic elution is simple but limited, while gradient elution provides sharper peaks and more flexibility. Understanding the differences between these two modes can help chemists choose the best method for their specific separation needs.
