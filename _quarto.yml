@@ -1,5 +1,7 @@
 project:
   type: website
+  preview: 
+    port: 4200
   output-dir: docs
   resources: 
     - images/
@@ -23,12 +25,12 @@ website:
       - href: cv/index.qmd
         icon: file-earmark-check
         text: "CV"
-      #- href: teaching/index.qmd
-      #  icon: mortarboard
-      #  text: "Teaching"
-      - href: pubs/index.qmd
+      - href: publications/index.qmd
         icon: journals
-        text: "Pubs"
+        text: "Publications"
+      # - href: pubs/index.qmd
+      #   icon: journals
+      #   text: "Pubs"
       - href: posts/index.qmd
         icon: pencil-square
         text: "Posts"

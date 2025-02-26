@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Nazmul Alam">
-<meta name="dcterms.date" content="2023-06-11">
 
-<title>Binary versus Quarternary Pumps in (U)HPLC Systems – Nazmul Alam</title>
+<title>Publications – Nazmul Alam</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,19 +23,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<link href="../..//images/favicon.png" rel="icon" type="image/png">
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-005320388bf5d7a2f26bed4cf184bc04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="..//images/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-005320388bf5d7a2f26bed4cf184bc04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -53,19 +53,77 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../custom.scss">
+    const options = {
+      valueNames: ['listing-title','listing-journal','listing-year','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-journal","listing-year","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../custom.scss">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Nazmul Alam</span>
     </a>
   </div>
@@ -75,22 +133,22 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> <i class="bi bi-person-circle" role="img">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-person-circle" role="img">
 </i> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../cv/index.html"> <i class="bi bi-file-earmark-check" role="img">
+    <a class="nav-link" href="../cv/index.html"> <i class="bi bi-file-earmark-check" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications/index.html"> <i class="bi bi-journals" role="img">
+    <a class="nav-link active" href="../publications/index.html" aria-current="page"> <i class="bi bi-journals" role="img">
 </i> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts/index.html"> <i class="bi bi-pencil-square" role="img">
+    <a class="nav-link" href="../posts/index.html"> <i class="bi bi-pencil-square" role="img">
 </i> 
 <span class="menu-text">Posts</span></a>
   </li>  
@@ -102,102 +160,319 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Binary versus Quarternary Pumps in (U)HPLC Systems</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">HPLC</div>
-                <div class="quarto-category">Pumps</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Nazmul Alam </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">June 11, 2023</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#binary-pump-or-high-pressure-gradient-pump" id="toc-binary-pump-or-high-pressure-gradient-pump" class="nav-link active" data-scroll-target="#binary-pump-or-high-pressure-gradient-pump">Binary pump or High Pressure Gradient Pump</a></li>
-  <li><a href="#what-is-a-quaternary-pump-or-low-pressure-mixing-lpm-pump" id="toc-what-is-a-quaternary-pump-or-low-pressure-mixing-lpm-pump" class="nav-link" data-scroll-target="#what-is-a-quaternary-pump-or-low-pressure-mixing-lpm-pump">What Is a Quaternary Pump or Low Pressure Mixing (LPM) pump</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-
-<p>Hey there! Let’s talk about the different ways scientists separate compounds in liquid chromatography (LC). There are two main methods: isocratic and gradient.</p>
-<p>Isocratic separation just means using a constant mixture of solvents to separate compounds. It’s pretty straightforward and easy to do, but it might not always give the best results.</p>
-<p>Gradient separation, on the other hand, uses a changing mixture of solvents to improve the separation process. This can lead to better peak shapes and faster analysis times. When scientists are developing a gradient mixing method, they can use either a binary or quaternary pump.</p>
-<p>Binary pumps mix solvents at high pressure, which is great for high-pressure gradient (HPG) analysis. Quaternary pumps, on the other hand, mix solvents at low pressure.</p>
-<section id="binary-pump-or-high-pressure-gradient-pump" class="level2">
-<h2 class="anchored" data-anchor-id="binary-pump-or-high-pressure-gradient-pump">Binary pump or High Pressure Gradient Pump</h2>
-<p>Do you know what is the difference between binary and quaternary pumps?</p>
-<p>Binary pumps are the most popular pumps used in high-performance liquid chromatography (HPLC). They are known for their ability to create gradients using two solvents. They’re perfect for high-throughput and high-resolution (U)HPLC, or LC-MS applications.</p>
-<p>So, how do binary pumps work? Well, they use two pump blocks and two solvent inlet lines to mix two individual solvents at high pressure. The two solvents are mixed in a mixing chamber after the pump heads, creating a high-pressure proportioning environment. This means that the solvents are already under pressure before they reach the mix-point where the mixing occurs.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="binary.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Publications</h1>
 </div>
-<p>Let’s say you’re running a method that uses Solvent A and Solvent B at a ratio of 70:30. If your flow rate is 1.0 mL/min, the pumps would deliver 0.70 mL/min for Solvent A and 0.30 mL/min for Solvent B.</p>
-<p>Binary pumps are great for routine and high-throughput applications that require a two-solvent gradient. They’re easy to use and can be controlled using software. Plus, they’re capable of creating complex gradients that can be changed over time.</p>
-</section>
-<section id="what-is-a-quaternary-pump-or-low-pressure-mixing-lpm-pump" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-quaternary-pump-or-low-pressure-mixing-lpm-pump">What Is a Quaternary Pump or Low Pressure Mixing (LPM) pump</h2>
-<p>Hey there! Today, I am going to talk about quaternary pumps. These pumps are used for separating different substances efficiently. The cool thing about them is that they can use up to four solvents for gradient separation.</p>
-<p>Basically, these pumps mix the solvents at low pressure, which is why they’re sometimes called low-pressure mixing (LPM) pumps or low-pressure gradient (LPG) pumps. Don’t worry if these terms sound confusing, they all mean the same thing.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="quarternery.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0">
+<div class="thumbnail">
+<p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.8b02855" class="no-external"></a></p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.8b02855" class="no-external">
+<p><img loading="lazy" src="images/2018-1.gif" class="thumbnail-image"></p>
+</a><p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.8b02855" class="no-external"></a></p>
 </div>
-<p>So, what is a quaternary pump? It’s a pump that uses up to four different solvents to create gradients. These pumps are great for method development or when you need flexibility in your mobile phase composition. They use a single pump block and four solvent inlet lines to mix the solvents. The first plunger withdraws the solvents under low pressure, while the second plunger pushes an accurate flow rate under high pressure into the system. The mixing of the solvents occurs inside the first plunger cylinder, or a mixer can be installed after the proportioning valve in some designs. But, what’s a proportioning valve? It’s a fancy piece of equipment that opens the valve of each solvent to deliver an equivalent amount to the pump heads. As an example, Let’s say you’re a scientist, and you need to mix solvent A, B, C, and D in equal parts. The proportioning valve would open the valve of each solvent to deliver an equivalent sized packet of solvent to the pump heads.</p>
-<p>Since these pumps use low-pressure mixing to create gradients. This means that solvent degassing or the use of a vacuum degasser is necessary. The pumps can be controlled by software and offer the flexibility to change the composition of the mobile phase over time. They’re perfect for scientists who need to run methods with different solvent ratios. So, why are these pumps so great? Well, they’re perfect for separating complex mixtures because they can use different solvents to create a gradient that separates the different substances. This means that you can get more accurate results and save time.</p>
-<p>Another thing that’s awesome about quaternary pumps is that they’re really versatile. They can be used in a variety of industries, from pharmaceuticals to food and beverage.</p>
-<p>One of the drawbacks is that they have a higher dwell volume. This means that it takes longer for the system to re-equilibrate after each sample is completed. It’s like waiting for a pot of water to boil - it takes longer if there’s more water in the pot.</p>
-<p>Another issue with LPMs is that the extra dwell volume can create an isocratic hold if it’s not taken into account during a method transfer. This can cause problems down the line, so it’s important to be aware of it.</p>
-<p>In summary, both binary and quaternary pumps have their pros and cons. It’s up to you to decide which one is best for your specific needs. But now you know a little more about these pumps, and that’s always a good thing!</p>
-<p>Referencs:</p>
-<ol type="1">
-<li><p><a href="https://www.chromatographyonline.com/view/modern-hplc-pumps-perspectives-principles-and-practices">Dong</a></p></li>
-<li><p><a href="https://www.youtube.com/@ardentscientific7080/videos">video</a></p></li>
-<li><p><a href="https://www.chromatographyonline.com/view/how-does-it-work-part-i-pumps">Dong2</a></p></li>
-<li><p><a href="https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/ansa.202100007">paper</a></p></li>
-</ol>
-
-
-</section>
-
-</main> <!-- /main -->
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://pubs.acs.org/doi/10.1021/acs.analchem.8b02855" class="no-external">Effect of Transport Parameters and Device Geometry on Extraction Kinetics and Efficiency in Direct Immersion Solid-phase Microextraction</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://pubs.acs.org/doi/10.1021/acs.analchem.8b02855" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.8b02855" class="no-external"></a></p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.8b02855" class="no-external">
+<div class="metadata-value listing-journal">
+Analytical Chemistry
+</div>
+<div class="metadata-value listing-year">
+2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1">
+<div class="thumbnail">
+<p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.7b05436" class="no-external"></a></p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.7b05436" class="no-external">
+<p><img loading="lazy" src="images/2018-2.gif" class="thumbnail-image"></p>
+</a><p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.7b05436" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://pubs.acs.org/doi/10.1021/acs.analchem.7b05436" class="no-external">Effect of Binding Components in Complex Sample Matrices on Recovery in Direct Immersion Solid-Phase Microextraction Friends or Foe?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://pubs.acs.org/doi/10.1021/acs.analchem.7b05436" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.7b05436" class="no-external"></a></p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.7b05436" class="no-external">
+<div class="metadata-value listing-journal">
+Analytical Chemistry
+</div>
+<div class="metadata-value listing-year">
+2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2">
+<div class="thumbnail">
+<p><a href="https://doi.org/10.1016/j.aca.2017.11.014" class="no-external"></a></p><a href="https://doi.org/10.1016/j.aca.2017.11.014" class="no-external">
+<p><img loading="lazy" src="images/2018-3.jpg" class="thumbnail-image"></p>
+</a><p><a href="https://doi.org/10.1016/j.aca.2017.11.014" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://doi.org/10.1016/j.aca.2017.11.014" class="no-external">The effect of hematocrit on solid-phase microextraction</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://doi.org/10.1016/j.aca.2017.11.014" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://doi.org/10.1016/j.aca.2017.11.014" class="no-external"></a></p><a href="https://doi.org/10.1016/j.aca.2017.11.014" class="no-external">
+<div class="metadata-value listing-journal">
+Analytica Chimica Acta
+</div>
+<div class="metadata-value listing-year">
+2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3">
+<div class="thumbnail">
+<p><a href="https://doi.org/10.1021/acs.analchem.7b04502" class="no-external"></a></p><a href="https://doi.org/10.1021/acs.analchem.7b04502" class="no-external">
+<p><img loading="lazy" src="images/2018-4.webp" class="thumbnail-image"></p>
+</a><p><a href="https://doi.org/10.1021/acs.analchem.7b04502" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://doi.org/10.1021/acs.analchem.7b04502" class="no-external">Advances in Solid Phase Microextraction and Perspective on Future Directions</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://doi.org/10.1021/acs.analchem.7b04502" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://doi.org/10.1021/acs.analchem.7b04502" class="no-external"></a></p><a href="https://doi.org/10.1021/acs.analchem.7b04502" class="no-external">
+<div class="metadata-value listing-journal">
+Analytical Chemistry
+</div>
+<div class="metadata-value listing-year">
+2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4">
+<div class="thumbnail">
+<p><a href="https://doi.org/10.1021/acs.iecr.7b00131" class="no-external"></a></p><a href="https://doi.org/10.1021/acs.iecr.7b00131" class="no-external">
+<p><img loading="lazy" src="images/2017-1.gif" class="thumbnail-image"></p>
+</a><p><a href="https://doi.org/10.1021/acs.iecr.7b00131" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://doi.org/10.1021/acs.iecr.7b00131" class="no-external">Calibrant Free Sampling and Enrichment with Solid-Phase Microextraction”:” Computational Simulation and Experimental Verification</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://doi.org/10.1021/acs.iecr.7b00131" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://doi.org/10.1021/acs.iecr.7b00131" class="no-external"></a></p><a href="https://doi.org/10.1021/acs.iecr.7b00131" class="no-external">
+<div class="metadata-value listing-journal">
+Industrial &amp; Engineering Chemistry Research
+</div>
+<div class="metadata-value listing-year">
+2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5">
+<div class="thumbnail">
+<p><a href="https://doi.org/10.1021/acs.analchem.6b04442" class="no-external"></a></p><a href="https://doi.org/10.1021/acs.analchem.6b04442" class="no-external">
+<p><img loading="lazy" src="images/2017-2.gif" class="thumbnail-image"></p>
+</a><p><a href="https://doi.org/10.1021/acs.analchem.6b04442" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://doi.org/10.1021/acs.analchem.6b04442" class="no-external">Insights into the Effect of the PDMS-Layer on the Kinetics and Thermodynamics of Analyte Sorption onto the Matrix-Compatible Solid Phase Microextraction Coating</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://doi.org/10.1021/acs.analchem.6b04442" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://doi.org/10.1021/acs.analchem.6b04442" class="no-external"></a></p><a href="https://doi.org/10.1021/acs.analchem.6b04442" class="no-external">
+<div class="metadata-value listing-journal">
+Analytical Chemistry
+</div>
+<div class="metadata-value listing-year">
+2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6">
+<div class="thumbnail">
+<p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.6b01802" class="no-external"></a></p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.6b01802" class="no-external">
+<p><img loading="lazy" src="images/2016-1.gif" class="thumbnail-image"></p>
+</a><p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.6b01802" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://pubs.acs.org/doi/10.1021/acs.analchem.6b01802" class="no-external">Numerical Simulation and Experimental Validation of Calibrant-Loaded Extraction Phase Standardization Approach</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://pubs.acs.org/doi/10.1021/acs.analchem.6b01802" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.6b01802" class="no-external"></a></p><a href="https://pubs.acs.org/doi/10.1021/acs.analchem.6b01802" class="no-external">
+<div class="metadata-value listing-journal">
+Analytical Chemistry
+</div>
+<div class="metadata-value listing-year">
+2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7">
+<div class="thumbnail">
+<p><a href="http://pubs.acs.org/doi/full/10.1021/acs.analchem.5b02239" class="no-external"></a></p><a href="http://pubs.acs.org/doi/full/10.1021/acs.analchem.5b02239" class="no-external">
+<p><img loading="lazy" src="images/2015-1.gif" class="thumbnail-image"></p>
+</a><p><a href="http://pubs.acs.org/doi/full/10.1021/acs.analchem.5b02239" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="http://pubs.acs.org/doi/full/10.1021/acs.analchem.5b02239" class="no-external">Numerical modeling of solid-phase microextraction”:“” binding matrix effect on equilibrium time</a>
+</h3>
+<div class="listing-subtitle">
+<a href="http://pubs.acs.org/doi/full/10.1021/acs.analchem.5b02239" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="http://pubs.acs.org/doi/full/10.1021/acs.analchem.5b02239" class="no-external"></a></p><a href="http://pubs.acs.org/doi/full/10.1021/acs.analchem.5b02239" class="no-external">
+<div class="metadata-value listing-journal">
+Analytical Chemistry
+</div>
+<div class="metadata-value listing-year">
+2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8">
+<div class="thumbnail">
+<p><a href="10.1016/j.aca.2014.08.018" class="no-external"></a></p><a href="10.1016/j.aca.2014.08.018" class="no-external">
+<p><img loading="lazy" src="images/2014-1.jpg" class="thumbnail-image"></p>
+</a><p><a href="10.1016/j.aca.2014.08.018" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="10.1016/j.aca.2014.08.018" class="no-external">Aptamer-functionalized solid phase microextraction-liquid chromatography/tandem mass spectrometry for selective enrichment and determination of thrombin</a>
+</h3>
+<div class="listing-subtitle">
+<a href="10.1016/j.aca.2014.08.018" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="10.1016/j.aca.2014.08.018" class="no-external"></a></p><a href="10.1016/j.aca.2014.08.018" class="no-external">
+<div class="metadata-value listing-journal">
+Analytical Chemistry
+</div>
+<div class="metadata-value listing-year">
+2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9">
+<div class="thumbnail">
+<p><a href="https://pubs.rsc.org/en/content/articlelanding/2012/an/c2an35420a/unauth" class="no-external"></a></p><a href="https://pubs.rsc.org/en/content/articlelanding/2012/an/c2an35420a/unauth" class="no-external">
+<p><img loading="lazy" src="images/2012-1.jpg" class="thumbnail-image"></p>
+</a><p><a href="https://pubs.rsc.org/en/content/articlelanding/2012/an/c2an35420a/unauth" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://pubs.rsc.org/en/content/articlelanding/2012/an/c2an35420a/unauth" class="no-external">Scanning positional variations in single-nucleotide polymorphism of DNA”:” an electrochemical study</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://pubs.rsc.org/en/content/articlelanding/2012/an/c2an35420a/unauth" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://pubs.rsc.org/en/content/articlelanding/2012/an/c2an35420a/unauth" class="no-external"></a></p><a href="https://pubs.rsc.org/en/content/articlelanding/2012/an/c2an35420a/unauth" class="no-external">
+<div class="metadata-value listing-journal">
+Analyst
+</div>
+<div class="metadata-value listing-year">
+2012
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10">
+<div class="thumbnail">
+<p><a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-79960049394&amp;partnerID=MN8TOARS" class="no-external"></a></p><a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-79960049394&amp;partnerID=MN8TOARS" class="no-external">
+</a><p><a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-79960049394&amp;partnerID=MN8TOARS" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-79960049394&amp;partnerID=MN8TOARS" class="no-external">Mesoporous MCM-41 supported N-heterocyclic carbene-Pd(II) complex for Suzuki coupling reaction</a>
+</h3>
+<div class="listing-subtitle">
+<a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-79960049394&amp;partnerID=MN8TOARS" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-79960049394&amp;partnerID=MN8TOARS" class="no-external"></a></p><a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-79960049394&amp;partnerID=MN8TOARS" class="no-external">
+<div class="metadata-value listing-journal">
+Reaction Kinetics, Mechanisms and Catalysis
+</div>
+<div class="metadata-value listing-year">
+2011
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

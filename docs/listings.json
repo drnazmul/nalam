@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/teaching/index.html",
-    "items": []
-  },
-  {
     "listing": "/posts/index.html",
     "items": [
       "/posts/001-what-is-HPLC-UHPLC-and-principle/index.html",
@@ -18,17 +14,7 @@
     ]
   },
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/001-what-is-HPLC-UHPLC-and-principle/index.html",
-      "/blog/009-binary-vs-quaternary-pump-in-hplc/index.html",
-      "/blog/007-FDA-bioanalytical-method-validation-summaries/index.html",
-      "/blog/004-HPLC-separations-Isocratic-vs-gradient/index.html",
-      "/blog/005-history-hplc/index.html",
-      "/blog/008-dwell-volume-in-hplc/index.html",
-      "/blog/003_types-of-HPLC-pumps-based-on-flow-rate/index.html",
-      "/blog/006-HPLC-pumps-Piston-vs-Plunger/index.html",
-      "/blog/002_understanding-single-piston-vs.-dual-piston-pumps-in-HPLC-systems/index.html"
-    ]
+    "listing": "/publications/index.html",
+    "items": []
   }
 ]

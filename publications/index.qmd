@@ -1,0 +1,14 @@
+---
+title: Publications
+listing:
+    contents: publications.yml
+    type: default
+    #max-description-length: 250
+    sort-ui: false
+    filter-ui: false
+    # fields: [title, journal, year]
+    # field-display-names: 
+    #   title: "Publications"
+    #   year: "Year"
+---
+
